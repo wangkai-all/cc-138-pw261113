@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>股权台账</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header id="topbar">
+    <div class="brand">股权台账</div>
+    <div id="stats" class="stats"></div>
+    <div id="position" class="position"></div>
+  </header>
+  <nav id="tabs">
+    <button data-tab="table" class="tab">股权表</button>
+    <button data-tab="txs" class="tab">交易记录</button>
+    <button data-tab="sim" class="tab">融资试算</button>
+    <button data-tab="scen" class="tab">情景</button>
+  </nav>
+  <main id="app"></main>
+  <div id="modal-root"></div>
+  <div id="toast-root"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

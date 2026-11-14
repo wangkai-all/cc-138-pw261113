@@ -1,0 +1,11 @@
+{
+  "name": "cap-table-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "股权台账：逐笔交易驱动的持股台账 + 融资试算",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "test": "node --test test/"
+  }
+}
